@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size:14px;
+  color:#444;
+}
+
+.maze{
+margin:50px auto;
+display:flex;
+flex-wrap:wrap;
+}
+.case{
+  width:10px;
+  height:10px;
+}
+.top{
+  border-top:1px solid #000;
+}
+.bottom{
+  border-bottom:1px solid #000;
+}
+.left{
+  border-left:1px solid #000;
+}
+.right{
+  border-right:1px solid #000;
+}
+
+.top-white{
+  border-top:1px solid #FFF;
+}
+.bottom-white{
+  border-bottom:1px solid #FFF;
+}
+.left-white{
+  border-left:1px solid #FFF;
+}
+.right-white{
+  border-right:1px solid #FFF;
+}
